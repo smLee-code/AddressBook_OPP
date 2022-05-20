@@ -1,6 +1,4 @@
-#include "MyList.h"
-
-// class CMyList;
+class CMyList;
 
 class CUserInterface
 {

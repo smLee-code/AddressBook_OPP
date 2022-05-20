@@ -15,6 +15,8 @@ public:
 	int RemoveNode(const char* pszName);
 
 protected:
+	int LoadList(char* pszFileName);
+	int SaveList(char* pszFileName);
 	void ReleaseList();
 	
 };

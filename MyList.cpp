@@ -31,7 +31,18 @@ int CMyList::RemoveNode(const char* pszName)
 
 }
 
+int CMyList::LoadList(char* pszFileName)
+{
+
+}
+
+int CMyList::SaveList(char* pszFileName)
+{
+
+}
+
 void CMyList::ReleaseList()
 {
 
 }
+
