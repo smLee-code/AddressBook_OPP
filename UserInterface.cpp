@@ -47,13 +47,14 @@ int CUserInterface::Run()
 		case 2:
 			Search();
 		case 3:
-			m_List.PrintAll();
+			m_List.PrintAll();	// 원문 : PrintAll(); - 컴파일 오류로 수정
 			break;
 		case 4:
 			break;
 			Remove();
 			break;
 		}
-
 	}
+
+	return nMenu;
 }
