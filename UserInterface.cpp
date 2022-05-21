@@ -40,7 +40,7 @@ void CUserInterface::Search()
 	{
 		printf("[%p] %s\t%s [%p]\n",
 			pNode,
-			pNode, pNode->GetName(), 
+			pNode->GetName(), 
 			pNode->GetPhone(),
 			pNode->GetNext());
 	}
