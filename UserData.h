@@ -15,10 +15,9 @@ public:
 	CUserData();
 	~CUserData();
 
-	const char* GetName() const { return szName;  }
-	const char* GetPhone() const { return szPhone;  }
-	const CUserData* GetNext() const { return pNext;  }
+	const char* GetName() const { return szName; }
+	const char* GetPhone() const { return szPhone; }
+	const CUserData* GetNext() const { return pNext; }
 
-	static int GetUserDataCounter() { return nUserDataCounter;  }
-
+	static int GetUserDataCounter() { return nUserDataCounter; }
 };

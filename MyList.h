@@ -1,5 +1,7 @@
 #include "UserData.h"
 
+#define DATA_FILE_NAME "Address.dat"
+
 class CMyList
 {
 protected:
@@ -15,9 +17,8 @@ public:
 	int RemoveNode(const char* pszName);
 
 protected:
-	int LoadList(char* pszFileName);
-	int SaveList(char* pszFileName);
+	int LoadList(const char* pszFileName);
+	int SaveList(const char* pszFileName);
 	void ReleaseList();
-	
 };
 
